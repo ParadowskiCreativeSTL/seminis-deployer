@@ -8,3 +8,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install Ansible
 RUN pip install ansible==2.9.4
+
+# Install Rsync
+RUN apt-get update && apt-get install -y --no-install-recommends rsync
